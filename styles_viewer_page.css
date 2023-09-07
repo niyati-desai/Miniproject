@@ -18,9 +18,9 @@ body {
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    background-color: #0c75e6ea; /* Background color for the header */
-    color: #ffffff; /* Text color */
-    padding: 1px 1px; /* Add padding for spacing */
+    background-color: #f8fafcf5; /* Background color for the header */
+    color: #0838ba; /* Text color */
+    padding: 10px 30px; /* Add padding for spacing */
 }
 
 .welcome-header h1 {
