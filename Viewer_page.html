@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewer Dashboard</title>
+    <link rel="stylesheet" href="styles_viewer_page.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header class="welcome-header">
+        <h1 id="welcome-text">SCORE!</h1>
+        <h2>Live</h2>
+        <h2>Upcoming Matches</h2>
+        <h2>Points Table</h2>
+        <h2><a href="logout.html" class="logout-button">LOGOUT</a></h2>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="live">
+                <h2>Live matches</h2>
+                <hr></hr>  
+                <section class="scoreboard">
+                </section>
+            </div>
+            <div class="finished">
+                <h2>Match Results</h2>
+                <hr></hr>
+                <section class="results">
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="script_viewer_page.js"></script>
+</body>
+</html>
