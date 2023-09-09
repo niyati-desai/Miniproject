@@ -9,7 +9,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     // Assume successful authentication for demonstration purposes
     if (email === "hd1@somaiya.edu" && password === "password") {
         // Redirect to the main website or dashboard upon successful login
-        href = "Viewer_page.html";
+        window.location.href = "Viewer_page.html";
     } else {
         alert("Invalid credentials. Please try again.");
     }
