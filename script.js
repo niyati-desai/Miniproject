@@ -6,6 +6,11 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     const password = document.getElementById("password").value;
 
     // Here, you would typically send this data to your server for authentication
-    // For a basic example, we'll just display the inputs in an alert
-    alert(`Email: ${email}, Password: ${password}`);
+    // Assume successful authentication for demonstration purposes
+    if (email === "hd1@somaiya.edu" && password === "password") {
+        // Redirect to the main website or dashboard upon successful login
+        href = "Viewer_page.html";
+    } else {
+        alert("Invalid credentials. Please try again.");
+    }
 });
