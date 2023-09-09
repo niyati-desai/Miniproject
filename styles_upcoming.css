@@ -22,6 +22,10 @@ body {
     color: #0838ba; /* Text color */
     padding: 10px 30px; /* Add padding for spacing */
 }
+
+.welcome-header h1 {
+    margin: 0; /* Remove default margin */
+}
 /*.container {
     background-color: #9ec8a052;
     border-radius: 20px;
@@ -45,9 +49,6 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     overflow-y: auto;
-}
-.welcome-header h1 {
-    margin: 0; /* Remove default margin */
 }
 p{
 font-size: 30px

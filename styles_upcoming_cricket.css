@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-   background-image: url('cricket.jpg');  /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+    background-image: url('cricket.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
     background-size: cover; /* This will make the image cover the entire background */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-attachment: fixed; /* Keep the background fixed while scrolling */
@@ -22,12 +22,12 @@ body {
     color: #0838ba; /* Text color */
     padding: 10px 30px; /* Add padding for spacing */
 }
-.container {
+/*.container {
     background-color: #9ec8a052;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 100; /* Set the width as needed */
-    height: auto; /* Set the height as needed */
+    width: 100;
+    height: auto; 
     justify-content: center;
     align-items: top;
     display: flex;
@@ -35,6 +35,9 @@ body {
     margin-top: 20px;
     position: relative;
     transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}*/
+.welcome-header h1 {
+    margin: 0; 
 }
 .matches {
     background-color: #148c1c;
@@ -52,16 +55,12 @@ body {
     transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     display: grid;
     grid-template-columns:1fr 1fr;
-grid-template-row:0fr;
- margin-right: 300px;
+    grid-template: row;
+    margin-right: 300px;
     margin-left: 300px;
     align-items: center;
-padding: 20px;
-  
+    padding: 20px;
 }
-
 h4{
-
 color:#070808;
-
 }
