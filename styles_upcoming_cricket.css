@@ -39,6 +39,9 @@ body {
 .welcome-header h1 {
     margin: 0; 
 }
+.welcome-header h2 {
+    margin: 0; 
+}
 .matches {
     background-color: #fff;
     opacity: 0.8;
@@ -63,4 +66,21 @@ body {
 }
 h4{
 color:#070808;
+}
+@media (max-width: 425px) { 
+   .welcome-header {
+    width: 100%
+}
+.welcome-header h1 {
+    font-size: 1.0em;
+}
+.welcome-header h2 {
+   font-size: 0.8em;
+}.matches {
+    
+    width: 65%; /* Set the width as needed */
+    
+    margin-right: 20px;
+    margin-left: 20px;
+   }
 }
