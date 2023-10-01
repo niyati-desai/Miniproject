@@ -24,10 +24,10 @@ body {
 }
 
 .welcome-header h1 {
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 .welcome-header h2 {
-    margin: 0; /* Remove default margin *
+    margin: 0; /* Remove default margin */
 }
 
 .live {
