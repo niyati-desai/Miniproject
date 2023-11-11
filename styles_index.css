@@ -39,7 +39,28 @@ body {
     transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     overflow-y: auto;
 }
-
+.matches {
+    background-color:#cae8cb;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100; /* Set the width as needed */
+    height: auto; /* Set the height as needed */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin-right: 300px;
+    margin-left: 300px;
+    align-items: center;
+    padding: 20px;
+}
 .finished {
     width: 100%; /* Takes up the full width of the container */
     background-color: #9ec8a052;
